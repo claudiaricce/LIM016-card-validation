@@ -18,7 +18,7 @@ objetos de decoración para el hogar y te dirige al área de pago, donde se prec
 
   | Final |
   | ------------ | 
-  | |
+  |![Image text](https://github.com/claudiaricce/LIM016-card-validation/blob/e5279501ec8138e8295ca22b5b5448c75b556137/tarjeta%20de%20credito.jpg) |
 
 ## 3. Investigación UX
 
@@ -33,7 +33,7 @@ objetos de decoración para el hogar y te dirige al área de pago, donde se prec
     usuario proseguir con la compra del producto.
 
   3. Foto de prototipo en papel
-    
+    ![Image text](https://github.com/claudiaricce/LIM016-card-validation/blob/main/prototipo%20inicial.jpeg)
 
   4. Resumen del feedback recibido 
     Al presentarlo se pidió modificar el footer, estaba muy cerca de la parte central del proyecto, además se pidió modificar la forma de presentar las alertas y se incluyó una ventana modal.
