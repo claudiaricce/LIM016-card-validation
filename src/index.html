@@ -6,9 +6,41 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <header></header>
-    <main></main>
-    <footer></footer>
+      <img src="https://images.vexels.com/media/users/3/224239/isolated/preview/171e4ea1ec4511190c57212be2fa807f-planta-que-crece-en-el-logo-de-maceta.png" alt="">
+      <h1>DecorHome</h1>
+      <section>
+      <div class="contenedor diseño">
+        <div id="pago">
+          <h2> Pago con tarjeta </h2>
+          <p id="myP"> Los campos son obligatorios </p>
+          <form class="payment-card" id="formulario">
+            <div class="bank-card">
+                  <label class="bank-card__label_number">
+                    <span class="bank-card__h">Número de tarjeta</span>
+                    <input type="text" class="tarjeta" placeholder="1234123412341234" pattern="[0-9]" maxlength="16" name="number-card" 
+                    id="cn" required>
+                  </label> <br><br>
+                  <span class="bank-card__h">Nombre completo</span>
+                  <input type="text" class="tarjeta" placeholder="Camila Ruiz" pattern="[A-Za-z,]{2,}" name="holder-card" id="name" required>
+                  <br><br>
+                  <button type="button" class="btn" id="btn"> Verificar </button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+      <div class="modal-container">
+          <div class="modal modal-close">
+            <p class="close">X</p>
+            <div class="modal-textos">
+              <p id="Tjt"></p>
+           </div>
+          </div>
+      </div>
+
+    <footer>
+    <p>©Copyright 2021 Claudia Ricce</p>
+    </footer>
     <script src="index.js" type="module"></script>
   </body>
 </html>
