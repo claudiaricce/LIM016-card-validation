@@ -10,7 +10,7 @@ let inputString = document.getElementById('name');
 const onlyNum = /[^0-9]/g;
 const onlyLet = /[^a-zA-ZÑñáéíóúÁÉÍÓÚ\s]*$/g;
 inputNumber.addEventListener('input', function () {
-  inputNumber.value = inputNumber.value.replace(onlyNum, '');
+  inputNumber.value = inputNumber.value.replace(onlyNum,'');
 });
 inputString.addEventListener('input', function (){
   inputString.value = inputString.value.replace(onlyLet,'');
